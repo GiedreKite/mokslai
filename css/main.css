@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 30px;
+
+}
+.top-section-header {
+    color: #2B0236;
+    font-size: 32px;
+    text-align: center;
+   
+}
+.top-section-button {
+    background-color: #9A54BC;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border: 1px solid #9A54BC;
+    border-radius: 5px;
+    font-weight: 500px;
+    
+}
+.top-section-button:hover {
+    background-color: white;
+    color: #9A54BC;
+    cursor: pointer;
+}
+
+.elipses-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    height: 500px;
+}
+.smoller {
+    position: absolute;
+    top: 70px;
+
+}
+
+.rectangle{
+    position: absolute;
+    top: 85px;
+
+}
+
+.colab {
+    position: absolute;
+    top:100px;
+
+}
+.elipse-button {
+    position: absolute;
+    top: 350px;
+    padding: 3px 7px;
+    border: 1.48px solid #9A54BC;
+    border-radius: 5px;
+    font-size: 10px;
+    color: #60267F;
+    cursor: pointer;
+
+}
+.elipse-button:hover {
+    background-color: #9A54BC;
+    color: white;
+}
+
+
+.absolute {
+    position: absolute;
+}
+
+.icons-container {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.icons {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

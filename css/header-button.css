@@ -1,0 +1,11 @@
+.hearder-button {
+    border: none;
+    border: 1px solid #9A54BC;
+    color: #9A54BC;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 10px 5px;
+    height: 30px;
+    margin: 8px;
+}
